@@ -22,8 +22,6 @@
             "externalCommand": {
             "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
             "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
-        // 以下 LLVM 工具通常不需要显式指定，因为 Proton-Clang 已设置好默认值
-        // 但如果你想强制使用其自带版本，可以保留：
             "AR": "proton-clang/bin/llvm-ar",
             "NM": "proton-clang/bin/llvm-nm",
             "OBJCOPY": "proton-clang/bin/llvm-objcopy",
@@ -33,9 +31,7 @@
             "STRIP": "proton-clang/bin/llvm-strip",
             "LLVM_AR": "proton-clang/bin/llvm-ar",
             "LLVM_DIS": "proton-clang/bin/llvm-dis"
-        // ===== 重要：删除或注释掉 HOSTCC 和 HOSTCXX =====
-        // "HOSTCC": "...",
-        // "HOSTCXX": "..."
+        
         }
     },
     "AnyKernel3": {
