@@ -5,7 +5,7 @@
       "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sm8150",
       "branch": "lineage-18.1",
       "device": "cepheuz",
-      "defconfig": "sm8150-perf_defconfig"
+      "defconfig": "vendor/sm8150-perf_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
