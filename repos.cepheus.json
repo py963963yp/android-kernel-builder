@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Xiaomi_Kernel_cepheus",
-      "repo": "https://github.com/LineageOS/android_kernel_xiaomi_sm8150",
-      "branch": "lineage-18.1",
-      "device": "cepheuz",
-      "defconfig": "vendor/sm8150-perf_defconfig"
+      "repo": "https://github.com/MiCode/Xiaomi_Kernel_OpenSource",
+      "branch": "cepheus-q-oss",
+      "device": "cepheus",
+      "defconfig": "cepheus_user_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
